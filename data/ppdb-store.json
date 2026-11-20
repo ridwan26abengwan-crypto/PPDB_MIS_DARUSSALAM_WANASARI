@@ -1,0 +1,834 @@
+{
+  "registrations": [
+    {
+      "id": "reg-001",
+      "registrationNumber": "PPDB-MISDS-2026-0001",
+      "wave": "Gelombang 1",
+      "status": "Diterima",
+      "adminNotes": "Berkas lengkap dan hasil pemetaan kesiapan belajar sangat baik.",
+      "observationSchedule": "Sabtu, 7 Maret 2026 · Pukul 08.00 WIB (Ruang Abu Bakar)",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Muhammad Al-Fatih Pratama",
+        "nickName": "Fatih",
+        "nik": "3201011404200001",
+        "kkNumber": "3201010203150011",
+        "nisn": "0201145678",
+        "birthPlace": "Bogor",
+        "birthDate": "2020-04-14",
+        "gender": "Laki-laki",
+        "childOrder": "1",
+        "totalSiblings": "2",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Jl. Melati Indah Blok B No. 14",
+        "addressRtRw": "003/007",
+        "addressVillage": "Sukamaju",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "< 1 km",
+        "originType": "RA",
+        "originSchoolName": "RA Darul Hikmah"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Hendra Pratama, S.T.",
+          "nik": "3201011205870002",
+          "birthYear": "1987",
+          "education": "S1",
+          "occupation": "Pegawai Swasta",
+          "monthlyIncome": "Rp 5.000.000 - Rp 8.000.000"
+        },
+        "mother": {
+          "fullName": "Nadia Rahmawati, S.Pd.",
+          "nik": "3201014809890005",
+          "birthYear": "1989",
+          "education": "S1",
+          "occupation": "Guru / Pendidik",
+          "monthlyIncome": "Rp 3.000.000 - Rp 5.000.000"
+        },
+        "whatsapp": "081288112233",
+        "email": "hendra.pratama@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-001-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_fatih.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EDinas%20Kependudukan%20%26%20Pencatatan%20Sipil%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20MUHAMMAD%20AL-FATIH%20PRATAMA%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011404200001%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ETempat%20%2F%20Tgl%20Lahir%3A%20Bogor%2C%2014%20April%202020%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22265%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAyah%3A%20Hendra%20Pratama%20%7C%20Ibu%3A%20Nadia%20Rahmawati%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-001-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_fatih.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201010203150011%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20HENDRA%20PRATAMA%2C%20S.T.%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Jl.%20Melati%20Indah%20Blok%20B%20No.%2014%20RT%20003%2F007%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAnggota%3A%20Hendra%2C%20Nadia%2C%20M.%20Al-Fatih%2C%20Zayd%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-001-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_hendra.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EProvinsi%20Jawa%20Barat%20-%20Kabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011205870002%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20HENDRA%20PRATAMA%2C%20S.T.%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EStatus%3A%20Kawin%20%C2%B7%20Kewarganegaraan%3A%20WNI%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-001-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_fatih.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%23b91c1c%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EMF%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": {
+          "id": "doc-001-skl",
+          "label": "Surat Keterangan RA",
+          "fileName": "skl_ra_fatih.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23d97706%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23d97706%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3ESURAT%20KETERANGAN%20AKTIF%20RA%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ERA%20Darul%20Hikmah%20Cibinong%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EMenyatakan%20siswa%20atas%20nama%20Muhammad%20Al-Fatih%20Pratama%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EBenar%20tercatat%20sebagai%20peserta%20didik%20Kelompok%20B%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ETahun%20Ajaran%202025%2F2026%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        }
+      },
+      "createdAt": "2026-01-12T08:30:00.000Z",
+      "updatedAt": "2026-03-14T09:00:00.000Z"
+    },
+    {
+      "id": "reg-002",
+      "registrationNumber": "PPDB-MISDS-2026-0002",
+      "wave": "Gelombang 1",
+      "status": "Berkas Terverifikasi",
+      "adminNotes": "Seluruh berkas valid. Dijadwalkan mengikuti observasi kesiapan belajar.",
+      "observationSchedule": "Sabtu, 7 Maret 2026 · Pukul 09.00 WIB (Ruang Umar bin Khattab)",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Aisyah Humaira Azzahra",
+        "nickName": "Aisyah",
+        "nik": "3201016206200004",
+        "kkNumber": "3201010408160022",
+        "nisn": "",
+        "birthPlace": "Depok",
+        "birthDate": "2020-06-22",
+        "gender": "Perempuan",
+        "childOrder": "2",
+        "totalSiblings": "3",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Perum Griya Asri Jl. Kenanga No. 8",
+        "addressRtRw": "005/002",
+        "addressVillage": "Pabuaran",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "1 - 3 km",
+        "originType": "TK",
+        "originSchoolName": "TKIT Cahaya Madani"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Muhammad Yusuf",
+          "nik": "3201011002850009",
+          "birthYear": "1985",
+          "education": "S1",
+          "occupation": "Wiraswasta",
+          "monthlyIncome": "Rp 5.000.000 - Rp 8.000.000"
+        },
+        "mother": {
+          "fullName": "Fatimah Azzahra",
+          "nik": "3201015503880007",
+          "birthYear": "1988",
+          "education": "D3",
+          "occupation": "Ibu Rumah Tangga",
+          "monthlyIncome": "< Rp 1.500.000"
+        },
+        "whatsapp": "081377665544",
+        "email": "yusuf.keluarga@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-002-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_aisyah.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKota%20Depok%20-%20Jawa%20Barat%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20AISYAH%20HUMAIRA%20AZZAHRA%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201016206200004%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ETempat%20%2F%20Tgl%20Lahir%3A%20Depok%2C%2022%20Juni%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-002-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_aisyah.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201010408160022%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20MUHAMMAD%20YUSUF%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Perum%20Griya%20Asri%20Jl.%20Kenanga%20No.%208%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-002-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_yusuf.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011002850009%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20MUHAMMAD%20YUSUF%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-002-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_aisyah.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%231d4ed8%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EAH%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-01-18T10:15:00.000Z",
+      "updatedAt": "2026-02-02T11:20:00.000Z"
+    },
+    {
+      "id": "reg-003",
+      "registrationNumber": "PPDB-MISDS-2026-0003",
+      "wave": "Gelombang 1",
+      "status": "Berkas Perlu Perbaikan",
+      "adminNotes": "Foto Kartu Keluarga (KK) bagian nomor induk terpotong dan buram. Mohon unggah ulang foto KK yang utuh dan jelas.",
+      "observationSchedule": "",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Zayd Abdurrahman",
+        "nickName": "Zayd",
+        "nik": "3201010803200008",
+        "kkNumber": "3201011109170033",
+        "nisn": "",
+        "birthPlace": "Bogor",
+        "birthDate": "2020-03-08",
+        "gender": "Laki-laki",
+        "childOrder": "1",
+        "totalSiblings": "1",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Kp. Curug RT 02 RW 05 No. 27",
+        "addressRtRw": "002/005",
+        "addressVillage": "Pakansari",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "1 - 3 km",
+        "originType": "PAUD",
+        "originSchoolName": "PAUD Tunas Harapan"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Abdul Rahman Hakim",
+          "nik": "3201011508860004",
+          "birthYear": "1986",
+          "education": "SMA/SMK",
+          "occupation": "Teknisi / Mekanik",
+          "monthlyIncome": "Rp 3.000.000 - Rp 5.000.000"
+        },
+        "mother": {
+          "fullName": "Dewi Sartika",
+          "nik": "3201014401910002",
+          "birthYear": "1991",
+          "education": "SMA/SMK",
+          "occupation": "Pedagang / UMKM",
+          "monthlyIncome": "Rp 1.500.000 - Rp 3.000.000"
+        },
+        "whatsapp": "085611223344",
+        "email": "",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-003-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_zayd.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20ZAYD%20ABDURRAHMAN%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201010803200008%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ELahir%3A%20Bogor%2C%2008%20Maret%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-003-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_zayd_buram.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23dc2626%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23dc2626%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EDOKUMEN%20KK%20(PERLU%20PERBAIKAN)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EBagian%20kiri%20dokumen%20terpotong%20saat%20difoto%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20ABDUL%20RAHMAN%20HAKIM%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ECatatan%3A%20Mohon%20foto%20ulang%20seluruh%20halaman%20KK%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-003-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_hakim.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011508860004%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20ABDUL%20RAHMAN%20HAKIM%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-003-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_zayd.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%23b91c1c%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EZA%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-01-25T13:40:00.000Z",
+      "updatedAt": "2026-02-04T09:10:00.000Z"
+    },
+    {
+      "id": "reg-004",
+      "registrationNumber": "PPDB-MISDS-2026-0004",
+      "wave": "Gelombang 1",
+      "status": "Menunggu Verifikasi",
+      "adminNotes": "",
+      "observationSchedule": "",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Khadijah Salsabila Putri",
+        "nickName": "Salsa",
+        "nik": "3201015901200002",
+        "kkNumber": "3201012204140009",
+        "nisn": "",
+        "birthPlace": "Jakarta",
+        "birthDate": "2020-01-19",
+        "gender": "Perempuan",
+        "childOrder": "3",
+        "totalSiblings": "3",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Jl. Raya Pemda No. 102",
+        "addressRtRw": "001/003",
+        "addressVillage": "Karadenan",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "3 - 5 km",
+        "originType": "RA",
+        "originSchoolName": "RA Nurul Iman"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Drs. Ridwan Kamiluddin",
+          "nik": "3201010507800006",
+          "birthYear": "1980",
+          "education": "S1",
+          "occupation": "ASN / PNS",
+          "monthlyIncome": "Rp 5.000.000 - Rp 8.000.000"
+        },
+        "mother": {
+          "fullName": "Hj. Mariam Ulfah",
+          "nik": "3201014211830008",
+          "birthYear": "1983",
+          "education": "S1",
+          "occupation": "Wiraswasta",
+          "monthlyIncome": "Rp 3.000.000 - Rp 5.000.000"
+        },
+        "whatsapp": "081199887766",
+        "email": "ridwan.keluarga@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-004-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_salsa.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EDKI%20Jakarta%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20KHADIJAH%20SALSABILA%20PUTRI%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201015901200002%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ELahir%3A%20Jakarta%2C%2019%20Januari%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-004-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_salsa.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201012204140009%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20DRS.%20RIDWAN%20KAMILUDDIN%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Jl.%20Raya%20Pemda%20No.%20102%20Karadenan%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-004-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_ridwan.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201010507800006%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20DRS.%20RIDWAN%20KAMILUDDIN%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-004-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_salsa.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%231d4ed8%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EKS%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-02-01T09:10:00.000Z",
+      "updatedAt": "2026-02-01T09:10:00.000Z"
+    },
+    {
+      "id": "reg-005",
+      "registrationNumber": "PPDB-MISDS-2026-0005",
+      "wave": "Gelombang 1",
+      "status": "Diterima",
+      "adminNotes": "Lolos seleksi & daftar ulang telah dikonfirmasi.",
+      "observationSchedule": "Sabtu, 7 Maret 2026 · Pukul 08.30 WIB (Ruang Abu Bakar)",
+      "registrationChannel": "Offline",
+      "studentData": {
+        "fullName": "Ibrahim Malik Al-Habsyi",
+        "nickName": "Baim",
+        "nik": "3201010202200009",
+        "kkNumber": "3201011805180015",
+        "nisn": "0202023344",
+        "birthPlace": "Bogor",
+        "birthDate": "2020-02-02",
+        "gender": "Laki-laki",
+        "childOrder": "2",
+        "totalSiblings": "2",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Jl. KSR Dadi Kusmayadi No. 19",
+        "addressRtRw": "004/001",
+        "addressVillage": "Tengah",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "< 1 km",
+        "originType": "TK",
+        "originSchoolName": "TK Islam Al-Azhar Syifa"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Faisal Al-Habsyi",
+          "nik": "3201011909840001",
+          "birthYear": "1984",
+          "education": "S2",
+          "occupation": "Dosen / Akademisi",
+          "monthlyIncome": "> Rp 8.000.000"
+        },
+        "mother": {
+          "fullName": "Rina Marlina, M.Pd.",
+          "nik": "3201016004870003",
+          "birthYear": "1987",
+          "education": "S2",
+          "occupation": "Guru / Pendidik",
+          "monthlyIncome": "Rp 5.000.000 - Rp 8.000.000"
+        },
+        "whatsapp": "081233445566",
+        "email": "faisal.habsyi@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-005-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_baim.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20IBRAHIM%20MALIK%20AL-HABSYI%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201010202200009%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ELahir%3A%20Bogor%2C%2002%20Februari%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-005-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_baim.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201011805180015%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20FAISAL%20AL-HABSYI%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Jl.%20KSR%20Dadi%20Kusmayadi%20No.%2019%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-005-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_faisal.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011909840001%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20FAISAL%20AL-HABSYI%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-005-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_baim.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%23b91c1c%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EIM%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-02-05T11:00:00.000Z",
+      "updatedAt": "2026-03-14T10:30:00.000Z"
+    },
+    {
+      "id": "reg-006",
+      "registrationNumber": "PPDB-MISDS-2026-0006",
+      "wave": "Gelombang 1",
+      "status": "Berkas Terverifikasi",
+      "adminNotes": "Berkas lengkap. Menunggu kehadiran observasi.",
+      "observationSchedule": "Sabtu, 7 Maret 2026 · Pukul 10.00 WIB (Ruang Umar bin Khattab)",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Hafshah Nurul Aini",
+        "nickName": "Hafshah",
+        "nik": "3201016705200005",
+        "kkNumber": "3201010903190021",
+        "nisn": "",
+        "birthPlace": "Bogor",
+        "birthDate": "2020-05-27",
+        "gender": "Perempuan",
+        "childOrder": "1",
+        "totalSiblings": "2",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Komplek Nirwana Estate Blok D3",
+        "addressRtRw": "006/009",
+        "addressVillage": "Pakansari",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "1 - 3 km",
+        "originType": "RA",
+        "originSchoolName": "RA Al-Munawwarah"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Lukmanul Hakim",
+          "nik": "3201012106880004",
+          "birthYear": "1988",
+          "education": "S1",
+          "occupation": "Karyawan BUMN",
+          "monthlyIncome": "> Rp 8.000.000"
+        },
+        "mother": {
+          "fullName": "Siti Aminah",
+          "nik": "3201015310900001",
+          "birthYear": "1990",
+          "education": "S1",
+          "occupation": "Apoteker",
+          "monthlyIncome": "Rp 5.000.000 - Rp 8.000.000"
+        },
+        "whatsapp": "081900112233",
+        "email": "lukman.hakim@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-006-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_hafshah.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20HAFSHAH%20NURUL%20AINI%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201016705200005%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ELahir%3A%20Bogor%2C%2027%20Mei%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-006-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_hafshah.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201010903190021%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20LUKMANUL%20HAKIM%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Komplek%20Nirwana%20Estate%20Blok%20D3%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-006-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_lukman.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201012106880004%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20LUKMANUL%20HAKIM%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-006-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_hafshah.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%231d4ed8%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EHN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-02-09T14:25:00.000Z",
+      "updatedAt": "2026-02-11T08:00:00.000Z"
+    },
+    {
+      "id": "reg-007",
+      "registrationNumber": "PPDB-MISDS-2026-0007",
+      "wave": "Gelombang 2",
+      "status": "Menunggu Verifikasi",
+      "adminNotes": "",
+      "observationSchedule": "",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Bilal Arsyad Ramadhan",
+        "nickName": "Bilal",
+        "nik": "3201011208200003",
+        "kkNumber": "3201011402190008",
+        "nisn": "",
+        "birthPlace": "Bekasi",
+        "birthDate": "2020-08-12",
+        "gender": "Laki-laki",
+        "childOrder": "1",
+        "totalSiblings": "1",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Jl. Al-Falah No. 7",
+        "addressRtRw": "003/004",
+        "addressVillage": "Sukahati",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "< 1 km",
+        "originType": "Belum Sekolah",
+        "originSchoolName": ""
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Arif Budiman",
+          "nik": "3201010405920003",
+          "birthYear": "1992",
+          "education": "S1",
+          "occupation": "Desainer Grafis",
+          "monthlyIncome": "Rp 3.000.000 - Rp 5.000.000"
+        },
+        "mother": {
+          "fullName": "Laila Sari",
+          "nik": "3201014908940002",
+          "birthYear": "1994",
+          "education": "S1",
+          "occupation": "Ibu Rumah Tangga",
+          "monthlyIncome": "< Rp 1.500.000"
+        },
+        "whatsapp": "082144556677",
+        "email": "arif.budiman@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-007-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_bilal.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKota%20Bekasi%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20BILAL%20ARSYAD%20RAMADHAN%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011208200003%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ELahir%3A%20Bekasi%2C%2012%20Agustus%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-007-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_bilal.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201011402190008%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20ARIF%20BUDIMAN%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Jl.%20Al-Falah%20No.%207%20Sukahati%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-007-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_arif.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201010405920003%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20ARIF%20BUDIMAN%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-007-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_bilal.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%23b91c1c%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EBA%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-04-03T07:50:00.000Z",
+      "updatedAt": "2026-04-03T07:50:00.000Z"
+    },
+    {
+      "id": "reg-008",
+      "registrationNumber": "PPDB-MISDS-2026-0008",
+      "wave": "Gelombang 2",
+      "status": "Cadangan",
+      "adminNotes": "Usia per 1 Juli 2026 adalah 5 tahun 7 bulan; masuk daftar pertimbangan kuota Gelombang 2.",
+      "observationSchedule": "Sabtu, 6 Juni 2026 · Pukul 09.30 WIB (Ruang Utsman bin Affan)",
+      "registrationChannel": "Online",
+      "studentData": {
+        "fullName": "Maryam Yasmin Kamilah",
+        "nickName": "Yasmin",
+        "nik": "3201017011200006",
+        "kkNumber": "3201012807160017",
+        "nisn": "",
+        "birthPlace": "Bogor",
+        "birthDate": "2020-11-30",
+        "gender": "Perempuan",
+        "childOrder": "2",
+        "totalSiblings": "2",
+        "familyStatus": "Anak Kandung",
+        "addressStreet": "Perum Bumi Cibinong Endah Blok F12",
+        "addressRtRw": "002/008",
+        "addressVillage": "Sukahati",
+        "addressDistrict": "Cibinong",
+        "addressCity": "Kabupaten Bogor",
+        "distanceToSchool": "3 - 5 km",
+        "originType": "PAUD",
+        "originSchoolName": "PAUD Pelangi Muslim"
+      },
+      "parentsData": {
+        "father": {
+          "fullName": "Haryanto Kusuma",
+          "nik": "3201011703890005",
+          "birthYear": "1989",
+          "education": "S1",
+          "occupation": "Akuntan",
+          "monthlyIncome": "Rp 5.000.000 - Rp 8.000.000"
+        },
+        "mother": {
+          "fullName": "Nurul Hidayati",
+          "nik": "3201015206910006",
+          "birthYear": "1991",
+          "education": "S1",
+          "occupation": "Pegawai Swasta",
+          "monthlyIncome": "Rp 3.000.000 - Rp 5.000.000"
+        },
+        "whatsapp": "081766554433",
+        "email": "haryanto.k@example.com",
+        "guardian": {
+          "enabled": false,
+          "fullName": "",
+          "relationship": "",
+          "occupation": "",
+          "phone": ""
+        }
+      },
+      "documents": {
+        "birthCertificate": {
+          "id": "doc-008-akta",
+          "label": "Akta Kelahiran",
+          "fileName": "akta_yasmin.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%23047857%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKUTIPAN%20AKTA%20KELAHIRAN%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%20Anak%3A%20MARYAM%20YASMIN%20KAMILAH%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201017011200006%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22235%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ELahir%3A%20Bogor%2C%2030%20November%202020%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "familyCard": {
+          "id": "doc-008-kk",
+          "label": "Kartu Keluarga",
+          "fileName": "kk_yasmin.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230f172a%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20KELUARGA%20(KK)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3ENo.%20KK%3A%203201012807160017%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EKepala%20Keluarga%3A%20HARYANTO%20KUSUMA%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3EAlamat%3A%20Perum%20Bumi%20Cibinong%20Endah%20Blok%20F12%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "parentIdCard": {
+          "id": "doc-008-ktp",
+          "label": "KTP Orang Tua",
+          "fileName": "ktp_haryanto.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22640%22%20height%3D%22420%22%20fill%3D%22%23f8fafc%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%22380%22%20rx%3D%2212%22%20fill%3D%22%23ffffff%22%20stroke%3D%22%230369a1%22%20stroke-width%3D%223%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2220%22%20y%3D%2220%22%20width%3D%22600%22%20height%3D%2272%22%20rx%3D%2210%22%20fill%3D%22%230369a1%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2256%22%20font-family%3D%22sans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EKARTU%20TANDA%20PENDUDUK%20(KTP)%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%2278%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20fill%3D%22%23e2e8f0%22%3EKabupaten%20Bogor%3C%2Ftext%3E%0A%20%20%20%20%3Cline%20x1%3D%2248%22%20y1%3D%22130%22%20x2%3D%22592%22%20y2%3D%22130%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2248%22%20y%3D%22175%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENIK%3A%203201011703890005%3C%2Ftext%3E%3Ctext%20x%3D%2248%22%20y%3D%22205%22%20font-family%3D%22sans-serif%22%20font-size%3D%2216%22%20fill%3D%22%231e293b%22%3ENama%3A%20HARYANTO%20KUSUMA%3C%2Ftext%3E%0A%20%20%20%20%3Crect%20x%3D%22440%22%20y%3D%22290%22%20width%3D%22140%22%20height%3D%2276%22%20rx%3D%226%22%20fill%3D%22%23f1f5f9%22%20stroke%3D%22%23cbd5e1%22%20stroke-dasharray%3D%224%204%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22510%22%20y%3D%22333%22%20text-anchor%3D%22middle%22%20font-family%3D%22monospace%22%20font-size%3D%2212%22%20fill%3D%22%23475569%22%3EARSIP%20TERVALIDASI%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "studentPhoto": {
+          "id": "doc-008-foto",
+          "label": "Pas Foto 3x4",
+          "fileName": "foto_yasmin.svg",
+          "mimeType": "image/svg+xml",
+          "sizeBytes": 42500,
+          "dataUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22300%22%20height%3D%22400%22%20viewBox%3D%220%200%20300%20400%22%3E%0A%20%20%20%20%3Crect%20width%3D%22300%22%20height%3D%22400%22%20fill%3D%22%231d4ed8%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22150%22%20cy%3D%22145%22%20r%3D%2256%22%20fill%3D%22%23fde68a%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M55%20360%20C55%20255%2C%20245%20255%2C%20245%20360%20Z%22%20fill%3D%22%23ffffff%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M90%20360%20C90%20280%2C%20210%20280%2C%20210%20360%20Z%22%20fill%3D%22%23047857%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22158%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2234%22%20font-weight%3D%22bold%22%20fill%3D%22%23064e3b%22%3EMY%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%22150%22%20y%3D%22385%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20fill%3D%22%23ffffff%22%3EPAS%20FOTO%203x4%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+          "uploadedAt": "2026-02-10T09:15:00.000Z"
+        },
+        "tkCertificate": null
+      },
+      "createdAt": "2026-04-10T15:05:00.000Z",
+      "updatedAt": "2026-04-12T10:15:00.000Z"
+    }
+  ],
+  "settings": {
+    "id": 1,
+    "academicYear": "2026/2027",
+    "isOpen": true,
+    "quota": 60,
+    "wave1Dates": {
+      "label": "Gelombang 1 (Early Bird)",
+      "registrationDates": "5 Januari – 28 Februari 2026",
+      "observationDate": "Sabtu, 7 Maret 2026 (08.00 – 11.30 WIB)",
+      "announcementDate": "Sabtu, 14 Maret 2026",
+      "reRegistrationDates": "16 – 25 Maret 2026",
+      "benefitNote": "Prioritas kuota kelas & gratis biaya seragam olahraga."
+    },
+    "wave2Dates": {
+      "label": "Gelombang 2 (Reguler)",
+      "registrationDates": "1 April – 30 Mei 2026",
+      "observationDate": "Sabtu, 6 Juni 2026 (08.00 – 11.30 WIB)",
+      "announcementDate": "Sabtu, 13 Juni 2026",
+      "reRegistrationDates": "15 – 24 Juni 2026",
+      "benefitNote": "Terbuka selama kuota 60 kursi kelas 1 masih tersedia."
+    },
+    "contactWa": "081234567890",
+    "schoolAddress": "Jl. Pendidikan Islami No. 45, Kel. Sukamaju, Kec. Cibinong, Kab. Bogor, Jawa Barat 16915",
+    "secretariatHours": "Senin – Sabtu, 07.30 – 14.00 WIB",
+    "reRegistrationFee": "Rp 1.450.000 (Seragam 3 Stel, Buku Paket Kurikulum Merdeka & Kemenag, Kegiatan 1 Tahun)",
+    "registrationFee": "Gratis (Rp 0 — Bebas Biaya Formulir)",
+    "kopSurat": {
+      "topLabel": "LEMBAR PENETAPAN",
+      "foundationName": "YAYASAN PENDIDIKAN ISLAM DAARUTTAQWA (YPI-DTQ)",
+      "madrasahName": "MADRASAH IBTIDAIYAH DARUSSALAM",
+      "accreditation": "TERAKREDITASI : B",
+      "decreeNumber": "Nomor : 031/BAN-PDM/SK/2026",
+      "addressLine": "Jln. Wanasari No. 1 Desa Pinangsari Kec. Ciasem Kab. Subang 41265 Tlp. 08568639720",
+      "leftLogoDataUrl": null,
+      "rightLogoDataUrl": null
+    },
+    "updatedAt": "2026-11-20T16:22:52.332Z"
+  }
+}

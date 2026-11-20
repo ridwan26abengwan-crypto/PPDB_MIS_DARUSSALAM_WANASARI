@@ -18,10 +18,9 @@ const STORAGE_KEYS = {
 };
 
 /**
- * Layer abstraksi data PPDB MIS Darussalam.
- * - Menggunakan REST API Express (/api/*) + sinkronisasi localStorage yang sudah
- *   terisi 8 data dummy realistis.
- * - Arsitektur siap disambungkan langsung ke Supabase / PostgreSQL (lihat schema.sql).
+ * Layer abstraksi data PPDB MIS Darussalam (Client-Side Persistent Store).
+ * Berjalan 100% mandiri di Vercel/static hosting menggunakan localStorage
+ * dengan data awal dari SEED_REGISTRATIONS.
  */
 class PpdbService {
   private getLocalRegistrations(): RegistrationRecord[] {
@@ -52,7 +51,7 @@ class PpdbService {
     try {
       localStorage.setItem(STORAGE_KEYS.REGISTRATIONS, JSON.stringify(records));
     } catch {
-      // Ignore quota exceeded if user uploads very large files; primary persistence is server store
+      // Abaikan jika melebihi kuota localStorage akibat lampiran gambar besar
     }
   }
 
@@ -76,7 +75,7 @@ class PpdbService {
     try {
       localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(settings));
     } catch {
-      // Ignore storage error
+      // Abaikan error storage
     }
   }
 
@@ -100,29 +99,43 @@ class PpdbService {
     username: string,
     password: string
   ): Promise<{ token: string; user: AdminUser }> {
-    const res = await fetch('/api/auth/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ username, password }),
-    });
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || 'Gagal masuk ke dashboard panitia.');
+    const cleanUser = username.trim().toLowerCase();
+    const cleanPass = password.trim();
+
+    if (!cleanUser || !cleanPass) {
+      throw new Error('Username/Email dan password wajib diisi.');
     }
-    localStorage.setItem(STORAGE_KEYS.ADMIN_TOKEN, data.token);
-    localStorage.setItem(STORAGE_KEYS.ADMIN_USER, JSON.stringify(data.user));
-    return data as { token: string; user: AdminUser };
+
+    // Validasi akun panitia (menerima kredensial demo maupun akun standar panitia)
+    const isValidDemo =
+      (cleanUser === 'admin' ||
+        cleanUser === 'admin@misdarussalam.sch.id' ||
+        cleanUser === 'panitia@misdarussalam.sch.id') &&
+      (cleanPass === 'admin123' ||
+        cleanPass === 'darussalam2026' ||
+        cleanPass === 'ppdb2026');
+
+    if (!isValidDemo) {
+      throw new Error(
+        'Username atau password salah. Gunakan tombol "Isi Akun Demo Admin" untuk masuk.'
+      );
+    }
+
+    const user: AdminUser = {
+      id: 'admin-1',
+      username: cleanUser,
+      name: 'Panitia PPDB MIS Darussalam',
+      role: 'admin',
+    };
+    const token = `local-token-${Date.now()}`;
+
+    localStorage.setItem(STORAGE_KEYS.ADMIN_TOKEN, token);
+    localStorage.setItem(STORAGE_KEYS.ADMIN_USER, JSON.stringify(user));
+
+    return { token, user };
   }
 
   async getPublicSummary(): Promise<{ totalApplicants: number; acceptedCount: number }> {
-    try {
-      const res = await fetch('/api/summary');
-      if (res.ok) {
-        return (await res.json()) as { totalApplicants: number; acceptedCount: number };
-      }
-    } catch {
-      // Fallback to localStorage cache
-    }
     const local = this.getLocalRegistrations();
     return {
       totalApplicants: local.length,
@@ -131,65 +144,46 @@ class PpdbService {
   }
 
   async getSettings(): Promise<PpdbSettings> {
-    try {
-      const res = await fetch('/api/settings');
-      if (res.ok) {
-        const data = (await res.json()) as PpdbSettings;
-        this.setLocalSettings(data);
-        return data;
-      }
-    } catch {
-      // Fallback to localStorage cache
-    }
     return this.getLocalSettings();
   }
 
   async updateSettings(patch: Partial<PpdbSettings>): Promise<PpdbSettings> {
-    const session = this.getAdminSession();
-    const res = await fetch('/api/settings', {
-      method: 'PUT',
-      headers: {
-        'Content-Type': 'application/json',
-        ...(session ? { Authorization: `Bearer ${session.token}` } : {}),
-      },
-      body: JSON.stringify(patch),
-    });
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || 'Gagal menyimpan pengaturan PPDB.');
-    }
-    this.setLocalSettings(data as PpdbSettings);
-    return data as PpdbSettings;
+    const current = this.getLocalSettings();
+    const updated: PpdbSettings = {
+      ...current,
+      ...patch,
+    };
+    this.setLocalSettings(updated);
+    return updated;
   }
 
   async getAllRegistrations(): Promise<RegistrationRecord[]> {
-    const session = this.getAdminSession();
-    try {
-      const res = await fetch('/api/registrations', {
-        headers: session ? { Authorization: `Bearer ${session.token}` } : {},
-      });
-      if (res.ok) {
-        const data = (await res.json()) as RegistrationRecord[];
-        this.setLocalRegistrations(data);
-        return data;
-      }
-    } catch {
-      // Fallback to localStorage cache
-    }
     return this.getLocalRegistrations();
   }
 
   async checkStatus(query: string, birthDate: string): Promise<RegistrationRecord> {
-    const params = new URLSearchParams({
-      query: query.trim(),
-      birthDate: birthDate.trim(),
-    });
-    const res = await fetch(`/api/registrations/check?${params.toString()}`);
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || 'Data pendaftaran tidak ditemukan.');
+    const cleanQuery = query.trim().toLowerCase();
+    const cleanBirth = birthDate.trim();
+
+    if (!cleanQuery) {
+      throw new Error('Masukkan Nomor Pendaftaran atau NIK calon siswa.');
     }
-    return data as RegistrationRecord;
+
+    const records = this.getLocalRegistrations();
+    const found = records.find((r) => {
+      const matchReg = r.registrationNumber.toLowerCase() === cleanQuery;
+      const matchNik = r.studentData.nik.trim() === cleanQuery;
+      const matchBirth = !cleanBirth || r.studentData.birthDate === cleanBirth;
+      return (matchReg || matchNik) && matchBirth;
+    });
+
+    if (!found) {
+      throw new Error(
+        'Data pendaftaran tidak ditemukan. Periksa kembali Nomor Pendaftaran/NIK dan Tanggal Lahir.'
+      );
+    }
+
+    return found;
   }
 
   async submitRegistration(input: {
@@ -200,54 +194,38 @@ class PpdbService {
     parentsData: RegistrationRecord['parentsData'];
     documents: DocumentsData;
   }): Promise<RegistrationRecord> {
-    try {
-      const res = await fetch('/api/registrations', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(input),
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        throw new Error(data.error || 'Gagal mengirim formulir pendaftaran.');
-      }
-      const created = data as RegistrationRecord;
-      const existing = this.getLocalRegistrations();
-      this.setLocalRegistrations([created, ...existing.filter((r) => r.id !== created.id)]);
-      return created;
-    } catch (err) {
-      if (err instanceof Error && !err.message.includes('Failed to fetch')) {
-        throw err;
-      }
-      // Offline / localStorage fallback
-      const existing = this.getLocalRegistrations();
-      const duplicate = existing.find((r) => r.studentData.nik === input.studentData.nik);
-      if (duplicate) {
-        throw new Error(
-          `NIK ${input.studentData.nik} sudah terdaftar dengan nomor ${duplicate.registrationNumber}.`
-        );
-      }
-      const now = new Date().toISOString();
-      const regNo = generateRegistrationNumber(
-        existing.map((r) => r.registrationNumber),
-        2026
+    const existing = this.getLocalRegistrations();
+    const duplicate = existing.find((r) => r.studentData.nik === input.studentData.nik);
+
+    if (duplicate) {
+      throw new Error(
+        `NIK ${input.studentData.nik} sudah terdaftar dengan nomor ${duplicate.registrationNumber}.`
       );
-      const created: RegistrationRecord = {
-        id: `reg-${Date.now()}`,
-        registrationNumber: regNo,
-        wave: input.wave,
-        status: input.status || 'Menunggu Verifikasi',
-        adminNotes: '',
-        observationSchedule: '',
-        registrationChannel: input.registrationChannel || 'Online',
-        studentData: input.studentData,
-        parentsData: input.parentsData,
-        documents: input.documents,
-        createdAt: now,
-        updatedAt: now,
-      };
-      this.setLocalRegistrations([created, ...existing]);
-      return created;
     }
+
+    const now = new Date().toISOString();
+    const regNo = generateRegistrationNumber(
+      existing.map((r) => r.registrationNumber),
+      2026
+    );
+
+    const created: RegistrationRecord = {
+      id: `reg-${Date.now()}`,
+      registrationNumber: regNo,
+      wave: input.wave,
+      status: input.status || 'Menunggu Verifikasi',
+      adminNotes: '',
+      observationSchedule: '',
+      registrationChannel: input.registrationChannel || 'Online',
+      studentData: input.studentData,
+      parentsData: input.parentsData,
+      documents: input.documents,
+      createdAt: now,
+      updatedAt: now,
+    };
+
+    this.setLocalRegistrations([created, ...existing]);
+    return created;
   }
 
   async reuploadDocuments(
@@ -255,18 +233,28 @@ class PpdbService {
     birthDate: string,
     documents: Partial<DocumentsData>
   ): Promise<RegistrationRecord> {
-    const res = await fetch(`/api/registrations/${encodeURIComponent(id)}/documents`, {
-      method: 'PATCH',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ birthDate, documents }),
-    });
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || 'Gagal mengunggah ulang berkas.');
-    }
-    const updated = data as RegistrationRecord;
     const existing = this.getLocalRegistrations();
-    this.setLocalRegistrations(existing.map((r) => (r.id === updated.id ? updated : r)));
+    const target = existing.find((r) => r.id === id);
+
+    if (!target) {
+      throw new Error('Data pendaftaran tidak ditemukan.');
+    }
+
+    if (birthDate && target.studentData.birthDate !== birthDate.trim()) {
+      throw new Error('Tanggal lahir tidak sesuai dengan data pendaftaran.');
+    }
+
+    const updated: RegistrationRecord = {
+      ...target,
+      documents: {
+        ...target.documents,
+        ...documents,
+      },
+      status: 'Menunggu Verifikasi',
+      updatedAt: new Date().toISOString(),
+    };
+
+    this.setLocalRegistrations(existing.map((r) => (r.id === id ? updated : r)));
     return updated;
   }
 
@@ -274,35 +262,24 @@ class PpdbService {
     id: string,
     patch: Partial<RegistrationRecord>
   ): Promise<RegistrationRecord> {
-    const session = this.getAdminSession();
-    const res = await fetch(`/api/registrations/${encodeURIComponent(id)}`, {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-        ...(session ? { Authorization: `Bearer ${session.token}` } : {}),
-      },
-      body: JSON.stringify(patch),
-    });
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || 'Gagal memperbarui data pendaftar.');
-    }
-    const updated = data as RegistrationRecord;
     const existing = this.getLocalRegistrations();
-    this.setLocalRegistrations(existing.map((r) => (r.id === updated.id ? updated : r)));
+    const target = existing.find((r) => r.id === id);
+
+    if (!target) {
+      throw new Error('Data pendaftar tidak ditemukan.');
+    }
+
+    const updated: RegistrationRecord = {
+      ...target,
+      ...patch,
+      updatedAt: new Date().toISOString(),
+    };
+
+    this.setLocalRegistrations(existing.map((r) => (r.id === id ? updated : r)));
     return updated;
   }
 
   async deleteRegistration(id: string): Promise<void> {
-    const session = this.getAdminSession();
-    const res = await fetch(`/api/registrations/${encodeURIComponent(id)}`, {
-      method: 'DELETE',
-      headers: session ? { Authorization: `Bearer ${session.token}` } : {},
-    });
-    if (!res.ok) {
-      const data = await res.json().catch(() => ({}));
-      throw new Error(data.error || 'Gagal menghapus data pendaftar.');
-    }
     const existing = this.getLocalRegistrations();
     this.setLocalRegistrations(existing.filter((r) => r.id !== id));
   }
@@ -311,7 +288,7 @@ class PpdbService {
     try {
       localStorage.setItem(STORAGE_KEYS.FORM_DRAFT, JSON.stringify(draft));
     } catch {
-      // Ignore draft quota error for large base64 previews
+      // Abaikan error kuota draft untuk preview base64 besar
     }
   }
 
